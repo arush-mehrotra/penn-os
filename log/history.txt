@@ -1,0 +1,116 @@
+zombify &
+ps
+zombify
+orphanify
+hang
+logout
+nohang
+logout
+recur
+recur
+logout
+sleep 5 &
+fg
+ps
+sleep 10 &
+ps
+kill 4
+ps
+sleep 10 &
+ps
+kill -stop 8
+ps
+bg
+ps
+ps
+sleep 5
+sleep 3
+logout
+sleep 9 &
+sleep 8 &
+sleep 7 &
+ps
+ps
+echo echo line1 > script
+echo echo line2 >> script
+cat script
+chmod +x script
+script > out
+cat out
+logout
+ls
+ls
+ls
+ls
+ls
+logout
+ls
+ls
+touch f1 f2 f3
+ls > out
+ls
+cat out
+echo hello world
+echo hello world > test
+cat test
+echo hello world >> test
+cat test
+man
+man > man_text
+cat man_text
+jobs
+sleep 10 &
+jobs
+jobs >> out
+cat out
+logout
+touch f1
+mv f1 f2
+mv f2 f3
+ls
+mv f5 f6
+ls
+rm f3
+ls
+touch f1
+chmod -r f1
+ls
+mv f1 f2
+touch f2
+chmod +r f1
+ls
+chmod -w f2
+ls
+mv f1 f2
+cp f3 f4
+chmod +w f2
+ls
+chmod -r f1
+cp f1 f2
+cat -w f1
+cat f1
+chmod +r f1
+cat f1
+ls
+chmod -w f2
+cp f1 f2
+chmod +w f2
+cp f1 f2
+ls
+cat f2
+cat f1 f2
+touch f3
+cat f1 f2 < f3
+cat -w f3
+cat < f3
+busy
+ps
+busy
+ps
+kill 43
+ps
+ls
+rm f1 f2 f3
+ls
+logout
+logout
